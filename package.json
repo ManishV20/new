@@ -1,0 +1,17 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "donation-box-back-end": "cd donation-box-back-end && node index.js",
+    "donation-box-front-end": "cd donation-box-front-end && npm start",
+    "dev": "concurrently \"npm run donation-box-back-end\" \"npm run donation-box-front-end\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
